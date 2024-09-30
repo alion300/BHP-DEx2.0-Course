@@ -1,0 +1,9 @@
+version: '3'
+services
+  nginx:
+    build:
+    dockerfile: workarea/docker/dockerfile
+    ports:
+      8080:8080
+
+    
