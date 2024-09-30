@@ -1,0 +1,9 @@
+# Build dockerfile
+Sudo Docker build -t dockerhomework  .
+
+# Run image created above
+Sudo Docker run -p 80:80 –rm -ti –nme dockerhomework alaa1805/dockerhomework:tagname
+
+#Push your created image to my repo
+Sudo docker login
+docker push alaa1805/dockerhomework:tagname
