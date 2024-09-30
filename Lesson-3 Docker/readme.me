@@ -4,3 +4,17 @@ The purpose of this homework is to get hands-on experience with Docker, includin
 
 Task 1: Write a Dockerﬁle
 
+# Build dockerfile
+Sudo Docker build -t dockerhomework  .
+
+# Run image created above
+Sudo Docker run -p 80:80 –rm -ti –nme dockerhomework alaa1805/dockerhomework:tagname
+
+#Push your created image to my repo
+Sudo docker login
+docker push alaa1805/dockerhomework:tagname
+
+
+
+Task 2: Run Multi-Container Application Using Docker Compose
+
